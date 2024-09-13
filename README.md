@@ -1,16 +1,21 @@
-# todo_app
+# Flutter Riverpod Todo App
 
-A new Flutter project.
+[![Flutter version](https://img.shields.io/badge/flutter-stable-blue?logo=flutter)](https://flutter.dev/docs/development/tools/sdk/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
+
+This is a simple Todo app built using Flutter and Riverpod, demonstrating how to perform CRUD (Create, Read, Update, Delete) operations in a clean and maintainable way. Riverpod is used as the state management solution for the app, promoting a declarative and efficient approach to handling the application state.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone this repository to your local machine.
+2. Ensure you have Flutter and Dart installed on your development environment.
+3. Run ```flutter pub get``` to fetch and install the required dependencies.
+4. Launch the app on an emulator or physical device using ```flutter run```.
 
-A few resources to get you started if this is your first Flutter project:
+<p align="left">
+ <img width="200" alt="iPhone13Mockup3" src="https://github.com/IsaiasCuvula/flutter_riverpod_todo_app/assets/68303716/161762c8-f304-4b19-9f4e-4006f50fdc83" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img width="200" alt="iPhone13Mockup2" src="https://github.com/IsaiasCuvula/flutter_riverpod_todo_app/assets/68303716/f23c201c-77d3-4fec-9339-3c9b47dce835" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="200" alt="iPhone13Mockup1" src="https://github.com/IsaiasCuvula/flutter_riverpod_todo_app/assets/68303716/62148f69-34f8-4f49-9889-a6649336723b" />
+</p>
