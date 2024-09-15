@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod_todo_app/data/data.dart';
-import 'package:flutter_riverpod_todo_app/utils/utils.dart';
-import 'package:flutter_riverpod_todo_app/widgets/widgets.dart';
 import 'package:gap/gap.dart';
+import 'package:todo_app/utils/utils.dart';
+
+import '../data/data.dart';
+import 'circular_container.dart';
 
 class TaskTile extends StatelessWidget {
   const TaskTile({

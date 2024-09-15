@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:todo_app/utils/utils.dart';
 
+import '../data/models/models.dart';
 import '../providers/task/task.dart';
 
 
