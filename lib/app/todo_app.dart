@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import '../config/theme/theme.dart';
-import '../screens/home_screen.dart';
-
+import '../config/config.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class TodoApp extends ConsumerWidget {
@@ -11,11 +9,10 @@ class TodoApp extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final route = ref.watch(routesProvider);
 
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      routerConfig: route,
-      home: const HomeScreen(),
+            routerConfig: route,
     );
   }
 }
