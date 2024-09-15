@@ -1,4 +1,4 @@
-import 'package:flutter_riverpod_todo_app/data/data.dart';
+import '../data.dart';
 
 class TaskRepositoryImpl implements TaskRepository {
   final TaskDatasource _datasource;

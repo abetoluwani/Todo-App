@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_riverpod_todo_app/data/data.dart';
+import '../../data/data.dart';
 
 class TaskState extends Equatable {
   final List<Task> tasks;

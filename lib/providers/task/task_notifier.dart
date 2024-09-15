@@ -1,7 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_todo_app/data/data.dart';
-import 'package:flutter_riverpod_todo_app/providers/providers.dart';
+
+import '../../data/data.dart';
+import '../provider.dart';
 
 class TaskNotifier extends StateNotifier<TaskState> {
   final TaskRepository _repository;

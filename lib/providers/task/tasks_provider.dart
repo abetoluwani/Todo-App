@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_todo_app/data/data.dart';
-import 'package:flutter_riverpod_todo_app/providers/providers.dart';
+import '../../data/data.dart';
+import '../provider.dart';
 
 final tasksProvider = StateNotifierProvider<TaskNotifier, TaskState>((ref) {
   final repository = ref.watch(taskRepositoryProvider);
